@@ -151,3 +151,68 @@ section {
     height: 80%;
 }
 
+
+
+/* PROJECT */
+
+#project {
+    position: relative;
+    /* margin-bottom: 14rem; */
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.project-pic1 {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.pic-pic {
+    box-shadow: 20px 20px 50px grey;
+}
+
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: darkgrey 0.1rem solid;
+    border-color: grey;
+    background: white;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-icon {
+    cursor: default;
+    width: 25px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
+}

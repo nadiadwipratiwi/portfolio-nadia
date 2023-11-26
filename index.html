@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portofolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+    <!-- sidebar -->
+    <input type="checkbox" id="check">
+
     <nav id="desktop-nav">
         <div class="logo">Nadia D. Pratiwi</div>
         <div>
             <ul class="nav-link">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
     
-    <label for="check" class="mobile-menu">Menu</label>
+    <!-- mobile menu -->
+    <label for="check" class="mobile-menu"><i class="fa-solid fa-bars"></i></label>
 
     <section id="profile">
         <div class="section-pic">
             <img src="img/profile.png" alt="">
         </div>
         <div class="section-text">
-            <p class="section-p1">Hi, I'm</p>
+            <p class="section-p1">Hello! I'm</p>
             <h1 class="title">Nadia Dwi Pratiwi</h1>
             <p class="section-p2">Student Of Wikrama Vocational High School</p>
             <div class="btn-container">
@@ -61,7 +67,35 @@
 
     <section id="project">
         <h1 class="title">My Project</h1>
-
+        <div class="project-pic1">
+            <img src="img/sertif dicoding 1.png" alt="" class="pic-pic">
+        </div>
     </section>
+
+    <section id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="img/email.png" alt="" class="icon contact-icon">
+                <p><a href="mailto:nadia@gmail.com">nadia@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="img/ig.png" alt="" class="icon contact-icon">
+                <p><a href="@nadiadwipratiwii">Instagram</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-link">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Nadia Dwi Pratiwi. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
