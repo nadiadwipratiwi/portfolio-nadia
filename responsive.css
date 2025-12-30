@@ -15,14 +15,11 @@
     display: none;
 }
 
-
-
-
-
-
-
-
 @media (max-width: 768px) {
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+
     .mobile-menu {
         display: block;
     }
@@ -30,8 +27,6 @@
     nav ul {
         display: none;
     }
-
-
 
     #profile,
     .section-container {
@@ -59,6 +54,7 @@
 
     .about-container {
         margin-top: 0;
+        grid-template-columns: 1fr;
     }
 }
 
